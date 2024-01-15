@@ -2,9 +2,6 @@
 
 This is a rust crate which has a single macro: `layout!{...}`. This allows for an easy construction of a `LayoutJob` from epaint (which is re-exported in egui).
 
-
-A macro for easily creating an epaint `LayoutJob`, which is rexported in egui. `LayoutJob` must be imported by a 'use' statement.
-
 ## Usage
 
 ```rust
