@@ -1,0 +1,16 @@
+[package]
+name = "layoutjob-macro"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro = true
+doctest = false
+
+[dependencies]
+proc-macro2 = "1.0.76"
+quote = "1.0.35"
+syn = { version = "2.0.48", features = ["full"] }
+
+[dev-dependencies]
+epaint = "0.25.0"
